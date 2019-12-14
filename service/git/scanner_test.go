@@ -28,8 +28,6 @@ func TestScannerSuiteSuite(t *testing.T) {
 }
 
 func (s *ScannerSuite) SetupSuite() {
-	require := s.Require()
-
 	fixture := fixtures.Basic().One()
 	fs := fixture.DotGit()
 	sto := filesystem.NewStorage(fs, cache.NewObjectLRU(cache.DefaultMaxSize))

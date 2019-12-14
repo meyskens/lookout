@@ -25,8 +25,6 @@ type ServiceSuite struct {
 }
 
 func (s *ServiceSuite) SetupSuite() {
-	require := s.Require()
-
 	fixture := fixtures.Basic().One()
 	fs := fixture.DotGit()
 	sto := filesystem.NewStorage(fs, cache.NewObjectLRU(cache.DefaultMaxSize))
