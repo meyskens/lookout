@@ -44,7 +44,7 @@ jobs:
   include:
     - name: 'Unit Tests'
       stage: tests
-      script: make test-coverage codecov
+      script: make test-coverage
     - name: 'SDK Integration Tests Linux'
       script:
         - make ci-start-bblfsh
