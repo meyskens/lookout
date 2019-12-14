@@ -6,7 +6,8 @@ PROJECT = lookout
 COMMANDS = cmd/lookoutd
 DEPENDENCIES = \
 	gopkg.in/src-d/go-kallax.v1 \
-	github.com/mjibson/esc
+	github.com/mjibson/esc \
+	gopkg.in/src-d/go-git-fixtures.v3
 
 # Backend services
 POSTGRESQL_VERSION = 9.6
