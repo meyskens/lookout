@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/src-d/lookout/web/assets"
+	"github.com/meyskens/lookout/web/assets"
 )
 
 const (

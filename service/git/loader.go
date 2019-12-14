@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"

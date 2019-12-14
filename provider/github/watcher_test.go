@@ -11,14 +11,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/cache"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/cache"
 
 	"github.com/gregjones/httpcache"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 func init() {

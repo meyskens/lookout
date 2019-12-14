@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 
 	"github.com/google/go-github/github"
 	"github.com/gregjones/httpcache"
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/cache"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/cache"
 	"github.com/stretchr/testify/suite"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 )
@@ -435,7 +435,7 @@ func (s *PosterTestSuite) TestStatusOK() {
 
 		expected, _ := json.Marshal(&github.RepoStatus{
 			State:       strptr("pending"),
-			TargetURL:   strptr("https://github.com/src-d/lookout"),
+			TargetURL:   strptr("https://github.com/meyskens/lookout"),
 			Description: strptr("The analysis is in progress"),
 			Context:     strptr("lookout"),
 		})

@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/connectivity"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 // LogAsDebug allows to log gRPC messages as debug level instead of info level

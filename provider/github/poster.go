@@ -7,8 +7,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/ctxlog"
 
 	"github.com/google/go-github/github"
 	"gopkg.in/src-d/go-errors.v1"
@@ -27,7 +27,7 @@ var (
 )
 
 const (
-	statusTargetURL = "https://github.com/src-d/lookout"
+	statusTargetURL = "https://github.com/meyskens/lookout"
 	statusContext   = "lookout"
 )
 

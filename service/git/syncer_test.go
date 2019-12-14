@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 
 	"github.com/stretchr/testify/require"
 	"gopkg.in/src-d/go-billy.v4/memfs"
 	"gopkg.in/src-d/go-git.v4/plumbing/transport"
 	githttp "gopkg.in/src-d/go-git.v4/plumbing/transport/http"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 func TestLibrary_Sync(t *testing.T) {
@@ -18,7 +18,7 @@ func TestLibrary_Sync(t *testing.T) {
 	library := NewLibrary(memfs.New())
 	syncer := NewSyncer(library, nil, 0)
 
-	url, _ := pb.ParseRepositoryInfo("https://github.com/src-d/lookout")
+	url, _ := pb.ParseRepositoryInfo("https://github.com/meyskens/lookout")
 	err := syncer.Sync(context.TODO(), lookout.ReferencePointer{
 		InternalRepositoryURL: url.CloneURL,
 		ReferenceName:         "refs/pull/1/head",
@@ -54,7 +54,7 @@ func TestLibrary_Auth(t *testing.T) {
 	library := NewLibrary(memfs.New())
 	syncer := NewSyncer(library, testAuthProvider{}, 0)
 
-	url, _ := pb.ParseRepositoryInfo("https://github.com/src-d/lookout")
+	url, _ := pb.ParseRepositoryInfo("https://github.com/meyskens/lookout")
 	err := syncer.Sync(context.TODO(), lookout.ReferencePointer{
 		InternalRepositoryURL: url.CloneURL,
 		ReferenceName:         "refs/pull/1/head",

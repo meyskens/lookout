@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/mock"
-	"github.com/src-d/lookout/store"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/mock"
+	"github.com/meyskens/lookout/store"
 
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 	"google.golang.org/grpc"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 func correctReviewEvent() *lookout.ReviewEvent {

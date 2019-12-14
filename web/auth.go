@@ -12,7 +12,7 @@ import (
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/dgrijalva/jwt-go/request"
 	"github.com/gorilla/sessions"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout/util/ctxlog"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/github"
 )

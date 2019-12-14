@@ -4,15 +4,15 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/dummy"
-	"github.com/src-d/lookout/util/cli"
-	"github.com/src-d/lookout/util/grpchelper"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/dummy"
+	"github.com/meyskens/lookout/util/cli"
+	"github.com/meyskens/lookout/util/grpchelper"
 
 	"google.golang.org/grpc"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 	gocli "gopkg.in/src-d/go-cli.v0"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
 )
 
 var (

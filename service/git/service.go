@@ -3,8 +3,8 @@ package git
 import (
 	"context"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/ctxlog"
 
 	errors "gopkg.in/src-d/go-errors.v1"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"

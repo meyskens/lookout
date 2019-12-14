@@ -447,7 +447,7 @@
 [[projects]]
   branch = "master"
   digest = "1:e3f8025131d19a6047e48c0cb8da35ae6e4edd4d39cb3625797de59cf314434a"
-  name = "github.com/src-d/lookout-test-fixtures"
+  name = "github.com/meyskens/lookout-test-fixtures"
   packages = ["."]
   pruneopts = "NUT"
   revision = "11bd377268683951838a5bce2e356228a43f894c"
@@ -827,7 +827,7 @@
 
 [[projects]]
   digest = "1:92cc9d97593717b562efc57404d5d1ea0be1d1f7b7bf9b1ae2e7496ee9a08e77"
-  name = "gopkg.in/src-d/lookout-sdk.v0"
+  name = "gopkg.in/meyskens/lookout-sdk.v0"
   packages = ["pb"]
   pruneopts = "NUT"
   revision = "8de6a00fca7c92c99c42c1100cc2075c849bab2a"
@@ -893,7 +893,7 @@
     "github.com/rs/cors",
     "github.com/sanity-io/litter",
     "github.com/satori/go.uuid",
-    "github.com/src-d/lookout-test-fixtures",
+    "github.com/meyskens/lookout-test-fixtures",
     "github.com/stretchr/testify/assert",
     "github.com/stretchr/testify/mock",
     "github.com/stretchr/testify/require",
@@ -933,7 +933,7 @@
     "gopkg.in/src-d/go-queue.v1",
     "gopkg.in/src-d/go-queue.v1/amqp",
     "gopkg.in/src-d/go-queue.v1/memory",
-    "gopkg.in/src-d/lookout-sdk.v0/pb",
+    "gopkg.in/meyskens/lookout-sdk.v0/pb",
     "gopkg.in/yaml.v2",
   ]
   solver-name = "gps-cdcl"

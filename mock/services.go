@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 	"github.com/stretchr/testify/require"
 )
 

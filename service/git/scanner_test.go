@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
@@ -148,7 +148,7 @@ func (s *ScannerSuite) TestFilterExcludeOne() {
 	}
 }
 
-// TestFilterDeletedFiles triggers https://github.com/src-d/lookout/issues/261
+// TestFilterDeletedFiles triggers https://github.com/meyskens/lookout/issues/261
 func (s *ScannerSuite) TestFilterDeletedFiles() {
 	fixtures := []filterScannerFixture{
 		{},

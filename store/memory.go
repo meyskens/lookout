@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/store/models"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/store/models"
 )
 
 // MemEventOperator satisfies EventOperator interface keeps events in memory

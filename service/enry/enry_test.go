@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/mock"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/mock"
 
 	"github.com/stretchr/testify/suite"
 )

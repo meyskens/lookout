@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout/util/ctxlog"
 	"github.com/stretchr/testify/require"
 
 	log "gopkg.in/src-d/go-log.v1"

@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/service/git"
-	"github.com/src-d/lookout/util/cache"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/service/git"
+	"github.com/meyskens/lookout/util/cache"
+	"github.com/meyskens/lookout/util/ctxlog"
 
 	"github.com/google/go-github/github"
 	"gopkg.in/src-d/go-git.v4/plumbing/transport"

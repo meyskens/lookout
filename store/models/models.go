@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/types"
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 	"gopkg.in/src-d/go-kallax.v1"
 )
 

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/service/git"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/service/git"
 
 	"github.com/stretchr/testify/suite"
 	"google.golang.org/grpc"
@@ -14,7 +14,7 @@ import (
 	"gopkg.in/src-d/go-git.v4/plumbing/cache"
 	"gopkg.in/src-d/go-git.v4/storage/filesystem"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 func init() {

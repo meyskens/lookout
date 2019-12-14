@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/ctxlog"
 
 	"github.com/google/go-github/github"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 func castEvent(r *repositoryInfo, e *github.Event) (lookout.Event, error) {

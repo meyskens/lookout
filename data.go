@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/grpc"
 	"gopkg.in/src-d/go-git.v4/utils/ioutil"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 type ChangesRequest = pb.ChangesRequest

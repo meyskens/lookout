@@ -5,9 +5,9 @@ import (
 	"context"
 	"testing"
 
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 
 	"github.com/stretchr/testify/require"
 	"gopkg.in/src-d/go-git.v4/plumbing"

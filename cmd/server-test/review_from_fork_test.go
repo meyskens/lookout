@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/lookout-test-fixtures"
+	"github.com/meyskens/lookout-test-fixtures"
 	"github.com/stretchr/testify/suite"
 )
 

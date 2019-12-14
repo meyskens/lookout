@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/cache"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/cache"
+	"github.com/meyskens/lookout/util/ctxlog"
 
 	"github.com/bradleyfalzon/ghinstallation"
 	"github.com/google/go-github/github"
@@ -16,7 +16,7 @@ import (
 	"gopkg.in/src-d/go-git.v4/plumbing/transport"
 	githttp "gopkg.in/src-d/go-git.v4/plumbing/transport/http"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 // Installations keeps github installations and allows to sync them

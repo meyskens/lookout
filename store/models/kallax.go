@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 	"gopkg.in/src-d/go-kallax.v1"
 	"gopkg.in/src-d/go-kallax.v1/types"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 var _ types.SQLType

@@ -1,9 +1,9 @@
 package sdk_test
 
 import (
-	"github.com/src-d/lookout/util/cmdtest"
+	"github.com/meyskens/lookout/util/cmdtest"
 
-	fixtures "github.com/src-d/lookout-test-fixtures"
+	fixtures "github.com/meyskens/lookout-test-fixtures"
 	git "gopkg.in/src-d/go-git.v4"
 )
 
@@ -17,11 +17,11 @@ func (s *SdkIntegrationSuite) SetupSuite() {
 	s.gitPath = "/tmp/lookout-sdk-test"
 
 	// clone repository with fixtures
-	// we should update it after https://github.com/src-d/lookout/issues/226 is resolved
+	// we should update it after https://github.com/meyskens/lookout/issues/226 is resolved
 	repo, err := git.PlainOpen(s.gitPath)
 	if err == git.ErrRepositoryNotExists {
 		_, err = git.PlainClone(s.gitPath, false, &git.CloneOptions{
-			URL: "https://github.com/src-d/lookout-test-fixtures.git",
+			URL: "https://github.com/meyskens/lookout-test-fixtures.git",
 		})
 
 		if err != nil {

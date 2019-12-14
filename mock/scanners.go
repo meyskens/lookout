@@ -1,6 +1,6 @@
 package mock
 
-import "github.com/src-d/lookout"
+import "github.com/meyskens/lookout"
 
 type SliceChangeScanner struct {
 	Changes    []*lookout.Change

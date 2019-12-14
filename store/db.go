@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/store/models"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/store/models"
+	"github.com/meyskens/lookout/util/ctxlog"
 	kallax "gopkg.in/src-d/go-kallax.v1"
 )
 

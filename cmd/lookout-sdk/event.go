@@ -9,19 +9,19 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/types"
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/service/bblfsh"
-	"github.com/src-d/lookout/service/enry"
-	"github.com/src-d/lookout/service/git"
-	"github.com/src-d/lookout/service/purge"
-	"github.com/src-d/lookout/util/cli"
-	"github.com/src-d/lookout/util/grpchelper"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/service/bblfsh"
+	"github.com/meyskens/lookout/service/enry"
+	"github.com/meyskens/lookout/service/git"
+	"github.com/meyskens/lookout/service/purge"
+	"github.com/meyskens/lookout/util/cli"
+	"github.com/meyskens/lookout/util/grpchelper"
 	"google.golang.org/grpc"
 
 	gogit "gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 type EventCommand struct {
