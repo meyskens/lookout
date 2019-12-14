@@ -11,7 +11,7 @@ require (
 	github.com/golang-migrate/migrate v3.2.0+incompatible
 	github.com/google/btree v0.0.0-20180124185431-e89373fe6b4a // indirect
 	github.com/google/go-github v17.0.0+incompatible
-	github.com/google/go-querystring v0.0.0-20170111101155-53e6ce116135 // indirect
+	github.com/google/go-github/v28 v28.1.1
 	github.com/gorilla/sessions v1.1.3
 	github.com/gregjones/httpcache v0.0.0-20190212212710-3befbb6ad0cc
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0

@@ -14,7 +14,7 @@ import (
 	"github.com/meyskens/lookout/util/cache"
 	"github.com/meyskens/lookout/util/ctxlog"
 
-	"github.com/google/go-github/github"
+	"github.com/google/go-github/v28/github"
 	"gopkg.in/src-d/go-git.v4/plumbing/transport"
 	log "gopkg.in/src-d/go-log.v1"
 )

@@ -12,7 +12,7 @@ import (
 
 	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 
-	"github.com/google/go-github/github"
+	"github.com/google/go-github/v28/github"
 	"github.com/gregjones/httpcache"
 	"github.com/meyskens/lookout"
 	"github.com/meyskens/lookout/util/cache"

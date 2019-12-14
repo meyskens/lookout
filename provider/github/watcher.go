@@ -9,7 +9,7 @@ import (
 	"github.com/meyskens/lookout"
 	"github.com/meyskens/lookout/util/ctxlog"
 
-	"github.com/google/go-github/github"
+	"github.com/google/go-github/v28/github"
 	errors "gopkg.in/src-d/go-errors.v1"
 	log "gopkg.in/src-d/go-log.v1"
 )

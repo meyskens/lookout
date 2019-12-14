@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/google/go-github/github"
+	"github.com/google/go-github/v28/github"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
