@@ -10,7 +10,6 @@ require (
 	github.com/gogo/protobuf v1.2.1
 	github.com/golang-migrate/migrate v3.2.0+incompatible
 	github.com/google/btree v0.0.0-20180124185431-e89373fe6b4a // indirect
-	github.com/google/go-github v17.0.0+incompatible // indirect
 	github.com/google/go-github/v28 v28.1.1
 	github.com/gorilla/sessions v1.1.3
 	github.com/gregjones/httpcache v0.0.0-20190212212710-3befbb6ad0cc
@@ -25,15 +24,13 @@ require (
 	github.com/lib/pq v0.0.0-20180523175426-90697d60dd84
 	github.com/mattn/go-colorable v0.0.9 // indirect
 	github.com/mattn/go-isatty v0.0.3 // indirect
-	github.com/mcuadros/go-lookup v0.0.0-20171110082742-5650f26be767 // indirect
-	github.com/meyskens/lookout-test-fixtures v0.0.0-20190402142344-11bd37726868
+	github.com/meyskens/lookout-test-fixtures v0.0.0-20191214185220-307dd3b796b1
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/mjibson/esc v0.2.0 // indirect
 	github.com/mwitkow/grpc-proxy v0.0.0-20181017164139-0f1106ef9c76
 	github.com/oklog/ulid v1.0.0 // indirect
 	github.com/petar/GoLLRB v0.0.0-20130427215148-53be0d36a84c // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
-	github.com/pkg/errors v0.8.1 // indirect
 	github.com/rs/cors v1.6.0
 	github.com/sanity-io/litter v1.1.1-0.20180714121731-09e3a73d5b65
 	github.com/satori/go.uuid v1.2.1-0.20180103174451-36e9d2ebbde5

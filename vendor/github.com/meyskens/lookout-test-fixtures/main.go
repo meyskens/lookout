@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/google/go-github/github"
+	"github.com/google/go-github/v28/github"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
 )
 
 var fixtures = Fixtures{
