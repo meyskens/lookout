@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 	"google.golang.org/grpc"
-	"gopkg.in/src-d/go-git-fixtures.v3"
+	"github.com/src-d/go-git-fixtures"
 	"gopkg.in/src-d/go-git.v4/plumbing/cache"
 	"gopkg.in/src-d/go-git.v4/storage/filesystem"
 	log "gopkg.in/src-d/go-log.v1"

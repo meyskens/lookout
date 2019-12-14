@@ -124,6 +124,8 @@ github.com/src-d/gcfg
 github.com/src-d/gcfg/scanner
 github.com/src-d/gcfg/token
 github.com/src-d/gcfg/types
+# github.com/src-d/go-git-fixtures v3.5.0+incompatible
+github.com/src-d/go-git-fixtures
 # github.com/src-d/go-oniguruma v1.0.0
 github.com/src-d/go-oniguruma
 # github.com/streadway/amqp v0.0.0-20180806233856-70e15c650864
@@ -255,8 +257,6 @@ gopkg.in/src-d/go-cli.v0
 gopkg.in/src-d/go-errors.v0
 # gopkg.in/src-d/go-errors.v1 v1.0.0
 gopkg.in/src-d/go-errors.v1
-# gopkg.in/src-d/go-git-fixtures.v3 v3.3.0
-gopkg.in/src-d/go-git-fixtures.v3
 # gopkg.in/src-d/go-git.v4 v4.11.0
 gopkg.in/src-d/go-git.v4
 gopkg.in/src-d/go-git.v4/config
