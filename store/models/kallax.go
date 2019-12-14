@@ -12,7 +12,6 @@ import (
 	"github.com/meyskens/lookout"
 	"gopkg.in/src-d/go-kallax.v1"
 	"gopkg.in/src-d/go-kallax.v1/types"
-	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 var _ types.SQLType

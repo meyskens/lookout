@@ -1,6 +1,6 @@
 package models
 
-//go:generate kallax gen
+//go:generate ./kallax.sh gen
 
 import (
 	"time"
