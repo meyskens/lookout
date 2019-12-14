@@ -4,7 +4,7 @@ _For a brief description about what is an analyzer, you can read [**source{d} Lo
 
 _Please refer to the [**official Protocol Buffers** documentation](https://developers.google.com/protocol-buffers/) to learn how to get started with Protocol Buffers._
 
-To implement your own analyzer you only need to create a gRPC service implementing the [Analyzer service](https://github.com/src-d/lookout-sdk/blob/master/proto/lookout/sdk/service_analyzer.proto#L30) interface:
+To implement your own analyzer you only need to create a gRPC service implementing the [Analyzer service](https://github.com/meyskens/lookout-sdk/blob/master/proto/lookout/sdk/service_analyzer.proto#L30) interface:
 
 ```protobuf
 service Analyzer {
@@ -13,11 +13,11 @@ service Analyzer {
 }
 ```
 
-You can create a new analyzer in any language that supports protocol buffers, generating code from [the `.proto` definitions](https://github.com/src-d/lookout-sdk/tree/master/proto/lookout/sdk). The resulting code will provide data access classes, with accessors for each field, as well as methods to serialize/parse the message structures to/from bytes.
+You can create a new analyzer in any language that supports protocol buffers, generating code from [the `.proto` definitions](https://github.com/meyskens/lookout-sdk/tree/master/proto/lookout/sdk). The resulting code will provide data access classes, with accessors for each field, as well as methods to serialize/parse the message structures to/from bytes.
 
 ## Caveats
 
-All the analyzers should consider [the caveats described by the SDK](https://github.com/src-d/lookout-sdk#caveats).
+All the analyzers should consider [the caveats described by the SDK](https://github.com/meyskens/lookout-sdk#caveats).
 
 
 ## Fetching Changes, UASTs or Languages from DataService
@@ -34,17 +34,17 @@ _Please refer to [**lookout-sdk** docs](lookout-sdk.md) to see how to locally te
 
 # Using Pregenerated Code from the SDK
 
-If you're creating your analyzer in Golang or Python, you'll find pre-generated libraries in the [lookout-sdk repository](https://github.com/src-d/lookout-sdk). The SDK libraries also come with helpers to deal with gRPC caveats.
+If you're creating your analyzer in Golang or Python, you'll find pre-generated libraries in the [lookout-sdk repository](https://github.com/meyskens/lookout-sdk). The SDK libraries also come with helpers to deal with gRPC caveats.
 
-**lookout-sdk** repository contains a [quickstart example](https://github.com/src-d/lookout-sdk/blob/master/examples) &mdash;implemented in Go and in Python&mdash; of an Analyzer that detects the language and number of functions for every file.
+**lookout-sdk** repository contains a [quickstart example](https://github.com/meyskens/lookout-sdk/blob/master/examples) &mdash;implemented in Go and in Python&mdash; of an Analyzer that detects the language and number of functions for every file.
 
 You can do as it follows:
 
 ## Golang
 
-Import and use `gopkg.in/src-d/lookout-sdk.v0/pb`.
+Import and use `gopkg.in/meyskens/lookout-sdk.v0/pb`.
 
-The analyzer must implement the [AnalyzerServer interface](https://godoc.org/gopkg.in/src-d/lookout-sdk.v0/pb#AnalyzerServer):
+The analyzer must implement the [AnalyzerServer interface](https://godoc.org/gopkg.in/meyskens/lookout-sdk.v0/pb#AnalyzerServer):
 
 Once you register the analyzer and the gRPC server is runing, it will listen for requests from `lookoutd`.
 
@@ -56,7 +56,7 @@ import (
 	"context"
 
 	"google.golang.org/grpc"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 type analyzer struct{}
@@ -90,7 +90,7 @@ Install and use [`lookout_sdk`](https://pypi.org/project/lookout-sdk) python lib
 $ pip install lookout-sdk
 ```
 
-The analyzer class will extend [AnalyzerServicer](https://github.com/src-d/lookout-sdk/blob/master/python/lookout/sdk/service_analyzer_pb2_grpc.py#L34):
+The analyzer class will extend [AnalyzerServicer](https://github.com/meyskens/lookout-sdk/blob/master/python/lookout/sdk/service_analyzer_pb2_grpc.py#L34):
 
 Once you register the analyzer and the [gRPC server](https://grpc.io/docs/tutorials/basic/python.html#starting-the-server) is runing, it will listen for requests from `lookoutd`.
 

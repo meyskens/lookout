@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/go-chi/chi/middleware"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout/util/ctxlog"
 	log "gopkg.in/src-d/go-log.v1"
 )
 

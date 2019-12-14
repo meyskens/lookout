@@ -3,12 +3,12 @@ package grpchelper
 import (
 	"context"
 
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout/util/ctxlog"
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	"google.golang.org/grpc"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 const logFieldsKey = "log-fields"

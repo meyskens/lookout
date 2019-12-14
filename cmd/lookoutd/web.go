@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/src-d/lookout/store"
-	"github.com/src-d/lookout/store/models"
+	"github.com/meyskens/lookout/store"
+	"github.com/meyskens/lookout/store/models"
 
-	"github.com/src-d/lookout/util/cli"
-	"github.com/src-d/lookout/web"
+	"github.com/meyskens/lookout/util/cli"
+	"github.com/meyskens/lookout/web"
 	gocli "gopkg.in/src-d/go-cli.v0"
 	log "gopkg.in/src-d/go-log.v1"
 	yaml "gopkg.in/yaml.v2"

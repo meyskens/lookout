@@ -6,7 +6,7 @@ _For information about how to create your own Analyzer, go to the [**source{d} L
 
 Essentially, an analyzer is just a [gRPC server](https://grpc.io/docs/guides/#overview) that will be called by **source{d} Lookout** using [protocol buffers](https://developers.google.com/protocol-buffers) whenever a Pull Request is ready to be analyzed, or it is updated.
 
-To do so, the analyzer must implement [Analyzer service](https://github.com/src-d/lookout-sdk/blob/master/proto/lookout/sdk/service_analyzer.proto#L30) interface:
+To do so, the analyzer must implement [Analyzer service](https://github.com/meyskens/lookout-sdk/blob/master/proto/lookout/sdk/service_analyzer.proto#L30) interface:
 
 ```protobuf
 service Analyzer {
@@ -15,7 +15,7 @@ service Analyzer {
 }
 ```
 
-To process the Pull Request, the analyzer can request a stream ([go](https://grpc.io/docs/tutorials/basic/go.html#server-side-streaming-rpc-1), [python](https://grpc.io/docs/tutorials/basic/python.html#response-streaming-rpc)) of files and changes from [**source{d} Lookout DataService**](https://github.com/src-d/lookout-sdk/blob/master/proto/lookout/sdk/service_data.proto#L27) that **source{d} Lookout** exposes, by default, on `localhost:10301`.
+To process the Pull Request, the analyzer can request a stream ([go](https://grpc.io/docs/tutorials/basic/go.html#server-side-streaming-rpc-1), [python](https://grpc.io/docs/tutorials/basic/python.html#response-streaming-rpc)) of files and changes from [**source{d} Lookout DataService**](https://github.com/meyskens/lookout-sdk/blob/master/proto/lookout/sdk/service_data.proto#L27) that **source{d} Lookout** exposes, by default, on `localhost:10301`.
 
 
 ## NotifyReviewEvent

@@ -6,13 +6,13 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/store"
-	"github.com/src-d/lookout/store/models"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/store"
+	"github.com/meyskens/lookout/store/models"
+	"github.com/meyskens/lookout/util/ctxlog"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 
 	log "gopkg.in/src-d/go-log.v1"
 	yaml "gopkg.in/yaml.v2"

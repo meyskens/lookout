@@ -7,11 +7,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/provider/json"
-	"github.com/src-d/lookout/server"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/provider/json"
+	"github.com/meyskens/lookout/server"
 
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 
 	uuid "github.com/satori/go.uuid"
 	gocli "gopkg.in/src-d/go-cli.v0"

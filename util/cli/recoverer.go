@@ -3,8 +3,8 @@ package cli
 import (
 	"context"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/ctxlog"
 )
 
 // RunWatcher starts the watcher with the given handler callback. On failure

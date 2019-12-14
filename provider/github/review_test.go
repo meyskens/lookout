@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/google/go-github/github"
-	"github.com/src-d/lookout"
+	"github.com/google/go-github/v28/github"
+	"github.com/meyskens/lookout"
 	"github.com/stretchr/testify/require"
 )
 

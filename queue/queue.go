@@ -6,14 +6,14 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/ctxlog"
 
 	log "gopkg.in/src-d/go-log.v1"
 	"gopkg.in/src-d/go-queue.v1"
 	_ "gopkg.in/src-d/go-queue.v1/amqp"
 	_ "gopkg.in/src-d/go-queue.v1/memory"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 // QueueJob is the data sent to the queue

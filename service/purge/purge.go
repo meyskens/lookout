@@ -3,7 +3,7 @@ package purge
 import (
 	"context"
 
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 )
 
 // Service implements data service interface which purges unneeded fields from response

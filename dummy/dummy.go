@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 
 	"gopkg.in/src-d/go-git.v4/utils/binary"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 type Analyzer struct {

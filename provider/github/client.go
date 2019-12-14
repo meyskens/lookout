@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/service/git"
-	"github.com/src-d/lookout/util/cache"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/service/git"
+	"github.com/meyskens/lookout/util/cache"
+	"github.com/meyskens/lookout/util/ctxlog"
 
-	"github.com/google/go-github/github"
+	"github.com/google/go-github/v28/github"
 	"gopkg.in/src-d/go-git.v4/plumbing/transport"
 	log "gopkg.in/src-d/go-log.v1"
 )

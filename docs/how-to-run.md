@@ -51,7 +51,7 @@ You will need to run the Analyzers to be used by **source{d} Lookout**.
 
 You can run one of our [example analyzers](analyzers-examples.md), any of the already [available analyzers](../README.md#available-analyzers) or the one that you're developing.
 
-For testing purposes, you may want to use a [`dummy` analyzer](analyzers-examples.md#dummy-analyzer). You can download it from [**source{d} Lookout** releases page](https://github.com/src-d/lookout/releases) and then run it:
+For testing purposes, you may want to use a [`dummy` analyzer](analyzers-examples.md#dummy-analyzer). You can download it from [**source{d} Lookout** releases page](https://github.com/meyskens/lookout/releases) and then run it:
 
 ```shell
 $ dummy serve
@@ -71,7 +71,7 @@ At least you should:
 
 # Run source{d} Lookout
 
-Download the latest `lookoutd` binary from [**source{d} Lookout** releases page](https://github.com/src-d/lookout/releases).
+Download the latest `lookoutd` binary from [**source{d} Lookout** releases page](https://github.com/meyskens/lookout/releases).
 
 ## Initialize the Database
 

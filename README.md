@@ -4,12 +4,12 @@
 
 **Service for assisted code review, that allows running custom code Analyzers on pull requests.**
 
-[![GitHub version](https://badge.fury.io/gh/src-d%2Flookout.svg)](https://github.com/src-d/lookout/releases)
-[![Build Status](https://travis-ci.com/src-d/lookout.svg?branch=master)](https://travis-ci.com/src-d/lookout)
+[![GitHub version](https://badge.fury.io/gh/src-d%2Flookout.svg)](https://github.com/meyskens/lookout/releases)
+[![Build Status](https://travis-ci.com/meyskens/lookout.svg?branch=master)](https://travis-ci.com/meyskens/lookout)
 ![Development](https://svg-badge.appspot.com/badge/stability/development?color=D6604A)
-[![Code Coverage](https://codecov.io/github/src-d/lookout/coverage.svg)](https://codecov.io/github/src-d/lookout)
-[![Go Report Card](https://goreportcard.com/badge/github.com/src-d/lookout)](https://goreportcard.com/report/github.com/src-d/lookout)
-[![GoDoc](https://godoc.org/github.com/src-d/lookout?status.svg)](https://godoc.org/github.com/src-d/lookout)
+[![Code Coverage](https://codecov.io/github/meyskens/lookout/coverage.svg)](https://codecov.io/github/meyskens/lookout)
+[![Go Report Card](https://goreportcard.com/badge/github.com/meyskens/lookout)](https://goreportcard.com/report/github.com/meyskens/lookout)
+[![GoDoc](https://godoc.org/github.com/meyskens/lookout?status.svg)](https://godoc.org/github.com/meyskens/lookout)
 
 [Website](https://www.sourced.tech) •
 [Documentation](https://docs.sourced.tech) •
@@ -104,10 +104,10 @@ This is the list of the known implemented analyzers for **source{d} Lookout**:
 | Name | Description | Targeted files | Maturity level |
 | --- | --- | --- | --- |
 | [style-analyzer](https://github.com/src-d/style-analyzer) | Code style analyzer |  | development |
-| [terraform](https://github.com/src-d/lookout-terraform-analyzer) | Checks if [Terraform](https://github.com/hashicorp/terraform/) files are correctly formatted | Terraform | usable |
-| [gometalint](https://github.com/src-d/lookout-gometalint-analyzer) | Reports [gometalinter](https://github.com/alecthomas/gometalinter) results on pull requests | Go | testing and demo |
-| [sonarcheck](https://github.com/src-d/lookout-sonarcheck-analyzer) | Reports [SonarSource](https://github.com/bblfsh/sonar-checks) checks results on pull requests using [bblfsh UAST](https://doc.bblf.sh/uast/uast-specification.html) | Java | testing and demo |
-| [flake8](https://github.com/src-d/lookout-flake8-analyzer) | Reports [flake8](http://flake8.pycqa.org/en/latest/) results on pull requests | Python| testing and demo |
+| [terraform](https://github.com/meyskens/lookout-terraform-analyzer) | Checks if [Terraform](https://github.com/hashicorp/terraform/) files are correctly formatted | Terraform | usable |
+| [gometalint](https://github.com/meyskens/lookout-gometalint-analyzer) | Reports [gometalinter](https://github.com/alecthomas/gometalinter) results on pull requests | Go | testing and demo |
+| [sonarcheck](https://github.com/meyskens/lookout-sonarcheck-analyzer) | Reports [SonarSource](https://github.com/bblfsh/sonar-checks) checks results on pull requests using [bblfsh UAST](https://doc.bblf.sh/uast/uast-specification.html) | Java | testing and demo |
+| [flake8](https://github.com/meyskens/lookout-flake8-analyzer) | Reports [flake8](http://flake8.pycqa.org/en/latest/) results on pull requests | Python| testing and demo |
 | [npm-audit](https://github.com/erizocosmico/npm-audit-analyzer) | Reports issues with newly added dependencies using [npm-audit](https://docs.npmjs.com/cli/audit) | JavaScript | development |
 | [function-name analyzer](https://github.com/src-d/function-name-analyzer) | Applies a translation model from function identifiers to function names. |  | development |
 
@@ -119,7 +119,7 @@ If you are developing an Analyzer, or you want more info about how they work, pl
 
 ## Contribute
 
-[Contributions](https://github.com/src-d/lookout/issues) are more than welcome, if you are interested please take a look at our [Contributing Guidelines](/docs/CONTRIBUTING.md).
+[Contributions](https://github.com/meyskens/lookout/issues) are more than welcome, if you are interested please take a look at our [Contributing Guidelines](/docs/CONTRIBUTING.md).
 
 ### Community
 

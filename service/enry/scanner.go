@@ -3,7 +3,7 @@ package enry
 import (
 	"strings"
 
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 	enry "gopkg.in/src-d/enry.v1"
 )
 

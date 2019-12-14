@@ -1,12 +1,12 @@
 # lookout-sdk Binary
 
-_For the **lookout-sdk** library to develop new analyzers go to [**lookout-sdk**](https://github.com/src-d/lookout-sdk) repository._
+_For the **lookout-sdk** library to develop new analyzers go to [**lookout-sdk**](https://github.com/meyskens/lookout-sdk) repository._
 
 `lookout-sdk` binary is a simplified version of the `lookoutd` server that works with a local git repository and does not need access to Github.
 
 You can think about `lookout-sdk` as a _curl-like_ tool to call an analyzer gRPC endpoint with a `ReviewEvent` or a `PushEvent`, from a local git repository, and send it to an analyzer without accessing GitHub at all. For convenience, `lookout-sdk` also exposes a **source{d} Lookout DataService** backed by the same git repository.
 
-You can download the latest `lookout-sdk` from the [src-d/lookout releases page](https://github.com/src-d/lookout/releases).
+You can download the latest `lookout-sdk` from the [meyskens/lookout releases page](https://github.com/meyskens/lookout/releases).
 
 This is the sequence diagram of the `ReviewEvent` made by `lookout-sdk review`. You can compare it with a regular **source{d} Lookout** installation at the [Architecture documentation](architecture.md).
 

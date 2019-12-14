@@ -7,9 +7,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/google/go-github/github"
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/google/go-github/v28/github"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/ctxlog"
 	errors "gopkg.in/src-d/go-errors.v1"
 	log "gopkg.in/src-d/go-log.v1"
 )
@@ -20,7 +20,7 @@ import (
 // Github doesn't allow to post more than 32 comments in 1 review
 // returning "was submitted too quickly"
 // with 32 comments they got posted by GH return 502 Server Error
-// issue: https://github.com/src-d/lookout/issues/264
+// issue: https://github.com/meyskens/lookout/issues/264
 // issue in go-github: https://github.com/google/go-github/issues/540
 const batchReviewComments = 30
 

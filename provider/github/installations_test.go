@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/google/go-github/github"
+	"github.com/google/go-github/v28/github"
 	"github.com/gregjones/httpcache"
-	"github.com/src-d/lookout/util/cache"
+	"github.com/meyskens/lookout/util/cache"
 	"github.com/stretchr/testify/require"
 )
 

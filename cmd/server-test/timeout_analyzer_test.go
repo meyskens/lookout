@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 
 	"github.com/stretchr/testify/suite"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 const dummyConfigFileWithTimeouts = "../../fixtures/dummy_config_with_timeouts.yml"

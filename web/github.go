@@ -9,13 +9,13 @@ import (
 	"net/http"
 	"strconv"
 
-	github_provider "github.com/src-d/lookout/provider/github"
+	github_provider "github.com/meyskens/lookout/provider/github"
 
 	"github.com/bradleyfalzon/ghinstallation"
 	"github.com/go-chi/chi"
-	"github.com/google/go-github/github"
-	"github.com/src-d/lookout/store"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/google/go-github/v28/github"
+	"github.com/meyskens/lookout/store"
+	"github.com/meyskens/lookout/util/ctxlog"
 	yaml "gopkg.in/yaml.v2"
 )
 

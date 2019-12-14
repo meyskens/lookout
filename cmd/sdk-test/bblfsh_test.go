@@ -7,13 +7,13 @@ import (
 	"io"
 	"testing"
 
-	"github.com/src-d/lookout"
-	fixtures "github.com/src-d/lookout-test-fixtures"
-	"github.com/src-d/lookout/util/grpchelper"
+	"github.com/meyskens/lookout"
+	fixtures "github.com/meyskens/lookout-test-fixtures"
+	"github.com/meyskens/lookout/util/grpchelper"
 	"github.com/stretchr/testify/suite"
 	"gopkg.in/bblfsh/sdk.v1/protocol"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 type BblfshIntegrationSuite struct {

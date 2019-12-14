@@ -18,7 +18,7 @@
 
 ## Resources
 
-* [GitHub Repository](https://github.com/src-d/lookout)
+* [GitHub Repository](https://github.com/meyskens/lookout)
 * [Product Page](https://www.sourced.tech/lookout)
 * [Book a Demo](http://go.sourced.tech/lookout)
 * [Get in Touch With Us](http://go.sourced.tech/contact)

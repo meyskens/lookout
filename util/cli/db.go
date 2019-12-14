@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/src-d/lookout/store"
+	"github.com/meyskens/lookout/store"
 
 	"github.com/golang-migrate/migrate"
 	_ "github.com/lib/pq"

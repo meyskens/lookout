@@ -9,14 +9,14 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/cmdtest"
-	"github.com/src-d/lookout/util/grpchelper"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/cmdtest"
+	"github.com/meyskens/lookout/util/grpchelper"
 
-	"github.com/src-d/lookout-test-fixtures"
+	"github.com/meyskens/lookout-test-fixtures"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 const dummyConfigFile = "../../fixtures/dummy_config.yml"

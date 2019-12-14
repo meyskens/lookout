@@ -3,7 +3,7 @@ package enry
 import (
 	"context"
 
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 )
 
 // Service implements data service interface which adds language information to the responses

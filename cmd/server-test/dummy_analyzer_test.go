@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	fixtures "github.com/src-d/lookout-test-fixtures"
+	fixtures "github.com/meyskens/lookout-test-fixtures"
 	"github.com/stretchr/testify/suite"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 type DummyIntegrationSuite struct {

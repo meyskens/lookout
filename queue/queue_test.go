@@ -10,16 +10,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/lookout"
-	fixtures "github.com/src-d/lookout-test-fixtures"
-	lookout_mock "github.com/src-d/lookout/mock"
+	"github.com/meyskens/lookout"
+	fixtures "github.com/meyskens/lookout-test-fixtures"
+	lookout_mock "github.com/meyskens/lookout/mock"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 	queue "gopkg.in/src-d/go-queue.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 var (

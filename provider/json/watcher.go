@@ -7,8 +7,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/ctxlog"
 
 	"gopkg.in/src-d/go-log.v1"
 )

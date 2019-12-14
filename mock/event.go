@@ -1,7 +1,7 @@
 package mock
 
 import (
-	"github.com/src-d/lookout"
+	"github.com/meyskens/lookout"
 )
 
 // FakeEvent is just an invalid event to be used for testing purposes.

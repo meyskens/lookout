@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout"
+	"github.com/meyskens/lookout/util/ctxlog"
 
 	"google.golang.org/grpc"
 	"gopkg.in/bblfsh/sdk.v1/protocol"

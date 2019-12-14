@@ -6,7 +6,8 @@ PROJECT = lookout
 COMMANDS = cmd/lookoutd
 DEPENDENCIES = \
 	gopkg.in/src-d/go-kallax.v1 \
-	github.com/mjibson/esc
+	github.com/mjibson/esc \
+	gopkg.in/src-d/go-git-fixtures.v3
 
 # Backend services
 POSTGRESQL_VERSION = 9.6
@@ -66,21 +67,21 @@ GOTEST_INTEGRATION = $(GOTEST) -parallel 1 -tags='$(GOTEST_INTEGRATION_TAGS)'
 test-sdk: clean-all build-all
 	DUMMY_BIN=$(PWD)/$(DUMMY_BIN) \
 	LOOKOUT_BIN=$(PWD)/$(LOOKOUT_SDK_BIN) \
-	$(GOTEST_INTEGRATION) github.com/src-d/lookout/cmd/sdk-test
+	$(GOTEST_INTEGRATION) github.com/meyskens/lookout/cmd/sdk-test
 
 # Same as test-sdk, but skipping tests that require a bblfshd server
 .PHONY: test-sdk-short
 test-sdk-short: clean-all build-all
 	DUMMY_BIN=$(PWD)/$(DUMMY_BIN) \
 	LOOKOUT_BIN=$(PWD)/$(LOOKOUT_SDK_BIN) \
-	$(GOTEST_INTEGRATION) -test.short github.com/src-d/lookout/cmd/sdk-test
+	$(GOTEST_INTEGRATION) -test.short github.com/meyskens/lookout/cmd/sdk-test
 
 # Integration test for lookout serve
 .PHONY: test-json
 test-json: clean build-all
 	DUMMY_BIN=$(PWD)/$(DUMMY_BIN) \
 	LOOKOUT_BIN=$(PWD)/$(LOOKOUT_BIN) \
-	$(GOTEST_INTEGRATION) github.com/src-d/lookout/cmd/server-test
+	$(GOTEST_INTEGRATION) github.com/meyskens/lookout/cmd/server-test
 
 # Build sdk client and dummy analyzer
 .PHONY: build-all

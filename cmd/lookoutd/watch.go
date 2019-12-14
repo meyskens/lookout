@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/src-d/lookout/util/cli"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout/util/cli"
+	"github.com/meyskens/lookout/util/ctxlog"
 	gocli "gopkg.in/src-d/go-cli.v0"
 )
 

@@ -5,14 +5,14 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/src-d/lookout/util/cache"
-	"github.com/src-d/lookout/util/ctxlog"
+	"github.com/meyskens/lookout/util/cache"
+	"github.com/meyskens/lookout/util/ctxlog"
 
 	"github.com/gregjones/httpcache"
 	"gopkg.in/src-d/go-git.v4/plumbing/transport"
 	githttp "gopkg.in/src-d/go-git.v4/plumbing/transport/http"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 // ClientConfig holds github username, token and watch interval

@@ -1,7 +1,7 @@
 package lookout
 
 import (
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 // Event represents a repository event.

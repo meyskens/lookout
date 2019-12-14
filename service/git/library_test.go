@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"gopkg.in/src-d/go-billy.v4/memfs"
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 func TestLibrary_Has(t *testing.T) {
