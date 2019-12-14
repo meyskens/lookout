@@ -5,16 +5,13 @@ import (
 	"fmt"
 
 	"github.com/meyskens/lookout"
+	fixtures "github.com/src-d/go-git-fixtures"
 
-	"github.com/src-d/go-git-fixtures"
 	"gopkg.in/src-d/go-git.v4/plumbing/cache"
 	"gopkg.in/src-d/go-git.v4/storage/filesystem"
 )
 
 func Example() {
-	if err := fixtures.Init(); err != nil {
-		panic(err)
-	}
 	defer fixtures.Clean()
 
 	fixture := fixtures.Basic().One()

@@ -7,9 +7,9 @@ import (
 
 	"github.com/meyskens/lookout"
 
+	fixtures "github.com/src-d/go-git-fixtures"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	fixtures "github.com/src-d/go-git-fixtures"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-git.v4/plumbing/cache"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
@@ -29,9 +29,6 @@ func TestScannerSuiteSuite(t *testing.T) {
 
 func (s *ScannerSuite) SetupSuite() {
 	require := s.Require()
-
-	err := fixtures.Init()
-	require.NoError(err)
 
 	fixture := fixtures.Basic().One()
 	fs := fixture.DotGit()

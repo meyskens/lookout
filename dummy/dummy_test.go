@@ -8,13 +8,13 @@ import (
 	"github.com/meyskens/lookout"
 	"github.com/meyskens/lookout/service/git"
 
+	fixtures "github.com/src-d/go-git-fixtures"
 	"github.com/stretchr/testify/suite"
 	"google.golang.org/grpc"
-	"github.com/src-d/go-git-fixtures"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 	"gopkg.in/src-d/go-git.v4/plumbing/cache"
 	"gopkg.in/src-d/go-git.v4/storage/filesystem"
 	log "gopkg.in/src-d/go-log.v1"
-	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 )
 
 func init() {
@@ -36,9 +36,6 @@ func TestDummySuite(t *testing.T) {
 
 func (s *DummySuite) SetupSuite() {
 	require := s.Require()
-
-	err := fixtures.Init()
-	require.NoError(err)
 
 	fixture := fixtures.Basic().One()
 	s.Basic = fixture
