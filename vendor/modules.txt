@@ -124,7 +124,7 @@ github.com/src-d/gcfg
 github.com/src-d/gcfg/scanner
 github.com/src-d/gcfg/token
 github.com/src-d/gcfg/types
-# github.com/src-d/go-git-fixtures v3.5.0+incompatible
+# github.com/src-d/go-git-fixtures v3.5.1-0.20190605154830-57f3972b0248+incompatible
 github.com/src-d/go-git-fixtures
 # github.com/src-d/go-oniguruma v1.0.0
 github.com/src-d/go-oniguruma
