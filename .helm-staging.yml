@@ -10,7 +10,7 @@ image:
 databases:
   postgres:
     cloudSQL: false
-    dbConnectionString: postgresql://lookout:lookout@postgresql:5432/lookout
+    dbConnectionString: postgresql://lookout:lookout@postgresql:5432/lookout?sslmode=disable
 
 queues:
   rabbitmq:
