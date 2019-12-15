@@ -31,6 +31,9 @@ analyzers:
   - name: terraform-analyzer
     addr: ipv4://lookout-terraform-analyzer:10303
     feedback: https://github.com/meyskens/lookout-terraform-analyzer/issues/new
+  - name: html-analyzer
+    addr: ipv4://lookout-html-analyzer:10303
+    feedback: https://github.com/meyskens/lookout-html-analyzer/issues/new
 
 bblfshd-sidecar:
   metrics:
