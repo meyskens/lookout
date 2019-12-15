@@ -14,7 +14,7 @@ databases:
 
 queues:
   rabbitmq:
-    connectionString: amqp://lookout-rabbitmq-ha:5672
+    connectionString: amqp://rabbitmq-rabbitmq-ha:5672
 
 repositories:
   - url: github.com/meyskens/lookout
