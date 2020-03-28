@@ -22,7 +22,7 @@ addons:
       - rabbitmq-server
 
 go:
-  - '1.12.x'
+  - '1.14.x'
 
 before_install:
   - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 90
