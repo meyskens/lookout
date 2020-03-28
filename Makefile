@@ -10,7 +10,7 @@ DEPENDENCIES = \
 	gopkg.in/src-d/go-git-fixtures.v3
 
 # Backend services
-POSTGRESQL_VERSION = 9.6
+#POSTGRESQL_VERSION = 9.6
 RABBITMQ_VERSION=any
 MIGRATIONS_PATH = store/migrations
 
